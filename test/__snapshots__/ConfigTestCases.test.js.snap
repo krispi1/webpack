@@ -4,25 +4,25 @@ exports[`ConfigTestCases records issue-2991 exported tests should write relative
 "{
   \\"chunks\\": {
     \\"byName\\": {
-      \\"main\\": 404
+      \\"main\\": 3
     },
     \\"bySource\\": {},
     \\"usedIds\\": [
-      404
+      3
     ]
   },
   \\"modules\\": {
     \\"byIdentifier\\": {
-      \\"./test.js\\": 316,
-      \\"external \\\\\\"fs\\\\\\"\\": 66,
-      \\"external \\\\\\"path\\\\\\"\\": 589,
-      \\"ignored|pkgs/somepackage/foo\\": 557
+      \\"./test.js\\": 9,
+      \\"external \\\\\\"fs\\\\\\"\\": 3,
+      \\"external \\\\\\"path\\\\\\"\\": 7,
+      \\"ignored|pkgs/somepackage/foo\\": 1
     },
     \\"usedIds\\": [
-      66,
-      316,
-      557,
-      589
+      1,
+      3,
+      7,
+      9
     ]
   }
 }"
@@ -32,29 +32,29 @@ exports[`ConfigTestCases records issue-7339 exported tests should write relative
 "{
   \\"chunks\\": {
     \\"byName\\": {
-      \\"main\\": 404
+      \\"main\\": 3
     },
     \\"bySource\\": {},
     \\"usedIds\\": [
-      404
+      3
     ]
   },
   \\"modules\\": {
     \\"byIdentifier\\": {
-      \\"./dependencies/bar.js\\": 853,
-      \\"./dependencies/foo.js\\": 494,
-      \\"./dependencies|sync|/^\\\\\\\\.\\\\\\\\/.*$/\\": 890,
-      \\"./test.js\\": 316,
-      \\"external \\\\\\"fs\\\\\\"\\": 66,
-      \\"external \\\\\\"path\\\\\\"\\": 589
+      \\"./dependencies/bar.js\\": 2,
+      \\"./dependencies/foo.js\\": 1,
+      \\"./dependencies|sync|/^\\\\\\\\.\\\\\\\\/.*$/\\": 8,
+      \\"./test.js\\": 9,
+      \\"external \\\\\\"fs\\\\\\"\\": 3,
+      \\"external \\\\\\"path\\\\\\"\\": 7
     },
     \\"usedIds\\": [
-      66,
-      316,
-      494,
-      589,
-      853,
-      890
+      1,
+      2,
+      3,
+      7,
+      8,
+      9
     ]
   }
 }"
